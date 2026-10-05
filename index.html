@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandlal Sah | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Nandlal Sah</div>
+        <button id="darkModeBtn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <h1>Hi, I'm Nandlal Sah 👋</h1>
+
+        <p>
+            Computer Science student passionate about Web Development,
+            Artificial Intelligence and building useful digital solutions.
+        </p>
+
+        <a href="#about" class="btn">Know More About Me</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+
+        <h2>About Me</h2>
+
+        <p>
+            I'm a Computer Science student at KPR Institute of Engineering
+            and Technology, Coimbatore. I enjoy learning new technologies
+            and building practical projects.
+        </p>
+
+        <p>
+            My interests include Web Development, Artificial Intelligence,
+            UI/UX design and problem solving. I have also worked on projects
+            such as JanSetuAI and FreshBite.
+        </p>
+
+    </section>
+
+    <!-- Services / Skills Section -->
+    <section id="services" class="container alt-bg">
+
+        <h2>My Skills & Interests</h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <h3>🌐 Web Development</h3>
+                <p>
+                    Building responsive websites and web applications
+                    using HTML, CSS, JavaScript and React.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>🤖 Artificial Intelligence</h3>
+                <p>
+                    Exploring AI and building useful AI-powered projects
+                    such as healthcare and chatbot solutions.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>🎨 Graphic Design</h3>
+                <p>
+                    Creating digital designs and visual content using
+                    Photoshop, Illustrator, Premiere Pro and After Effects.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            I'm always interested in learning, collaborating and building
+            interesting projects.
+        </p>
+
+        <p>
+            📧 Email:
+            <a href=" rohitsah6543@gmail.com" target="_blank">
+                rohitsah6543@gmail.com
+            </a>
+        </p>
+
+        <p>
+            💻 GitHub:
+            <a href="https://github.com/nandlalsah96" target="_blank">
+                github.com/nandlalsah96
+            </a>
+        </p>
+
+        <p>
+            🔗 LinkedIn:
+            <a href="https://www.linkedin.com/in/nandlal-sah/" target="_blank">
+                linkedin.com/in/nandlal-sah
+            </a>
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Nandlal Sah. Built for ApnoAI Internship Task 1.</p>
+    </footer>
+
+    <script>
+    function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+
+        const button = document.getElementById("darkModeBtn");
+
+        if (document.body.classList.contains("dark-mode")) {
+            button.innerHTML = "☀️ Light Mode";
+        } else {
+            button.innerHTML = "🌙 Dark Mode";
+        }
+    }
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
